@@ -12,18 +12,22 @@ Please see the notebook titled "Summary_Start_Here" for a detailed road map thro
 
 The data for this project was daily stock price data on all 30 stocks in the Dow Jones Industrial Average sourced from the Yahoo Finance API and then made into stock chart images.  Each image is of the preceeding 100 trading days and the value being predicted is the stockprice 10 days into the future.  Each image was a 107 pixel square, meaning that it is quite grainy and does not convey a lot of information.  The blue line is a 20 moving average.  Once the images are created, they are split into training, validation and test sets as described below and then fed into the neural network which output a prediction.  The split was done in this manner so that we are always using the past to predict the future.
 
+![Diagram](https://github.com/kylejohnson363/Predicting-Stock-Movements-with-Image-Classification/blob/master/Diagram.JPG)
+
 ### Binary Results
 This approach used a binary classification CNN to predict if a stock would move up or down.  The results of the model are compared against the Dow Jones Industrial Average over the same out-of-sample time frame and shows that our portfolio almost doubles the return of our benchmark (56% vs 31%).  Not only does our portfolio outperform the market, it out performs both when the market goes up and when it goes down.
+
+![Binary](https://github.com/kylejohnson363/Predicting-Stock-Movements-with-Image-Classification/blob/master/Binary%20Results.JPG)
 
 ### Multi-Categorical Results
 This approach used a multicategorical CNN to predict both the direction and the magnitude of a stock's movement.  The goal is for the predictions to have a smaller standard deviation of error than the corresponding standard deviation of returns.  This may seem abstract but it is extremely valuable to options traders who can place complex bets about when a stock will be in what price range.  These very specified bets can have very large payoffs when they are correct.  The negative value of the bartlett coefficient means that our standard deviation of error is smaller than our benchmark and the p-value indicates that it is statistically significant.
 
-
+![Multi](https://github.com/kylejohnson363/Predicting-Stock-Movements-with-Image-Classification/blob/master/Multi%20Results.JPG)
 
 # Summary of Findings:
--In the CNN multi-categorial classification model we achieved our goal of making a model with a smaller standard deviation of error than all stock's standard deviation of returns. This may seem useless on its surface but a model that can consistently do this would be of enourmous benefit to options traders due to the ability to take limited risk positions that have large payouts if the underlying stock lands in a specific zone.
-
 -In the CNN binary classification model we achieved our goal of making predictions that outperform the Dow Jones Industrial Average. The model outperformed in bullish and bearish markets and if these results can be repeated in live trading, would be of great benefit to traders, investors and money managers.
+
+-In the CNN multi-categorial classification model we achieved our goal of making a model with a smaller standard deviation of error than all stock's standard deviation of returns. This may seem useless on its surface but a model that can consistently do this would be of enourmous benefit to options traders due to the ability to take limited risk positions that have large payouts if the underlying stock lands in a specific zone.
 
 # Further Study:
 While these models did provide compelling results, it would take a fool to put real money at risk using these techniques alone and I advise against it in the strongest possible way.
