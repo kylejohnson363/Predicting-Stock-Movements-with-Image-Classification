@@ -10,7 +10,7 @@ Please see the notebook titled "Summary_Start_Here" for a detailed road map thro
 
 ### Process Overview
 
-The data for this project was daily stock price data on all 30 stocks in the Dow Jones Industrial Average sourced from the Yahoo Finance API and then made into stock chart images.  Each image is of the preceeding 100 trading days and the value being predicted is the stockprice 10 days into the future.  Each image was a 107 pixel square, meaning that it is quite grainy and does not convey a lot of information.  The blue line is a 20 moving average.  Once the images are created, they are split into training, validation and test sets as described below and then fed into the neural network which output a prediction.  The split was done in this manner so that we are always using the past to predict the future.
+The data for this project was daily stock price data on all 30 stocks in the Dow Jones Industrial Average sourced from the Yahoo Finance API and then made into stock chart images.  Each image is of the preceeding 100 trading days and the value being predicted is the stock price 10 days into the future.  Each image was a 107 pixel square, meaning that it is quite grainy and does not convey a lot of information.  The blue line is a 20 moving average.  Once the images are created, they are split into training, validation and test sets as described below and then fed into the neural network which output a prediction.  The split was done in this manner so that we are always using the past to predict the future.
 
 ![Diagram](https://github.com/kylejohnson363/Predicting-Stock-Movements-with-Image-Classification/blob/master/Diagram.JPG)
 
