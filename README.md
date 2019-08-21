@@ -30,7 +30,7 @@ This approach used a multicategorical CNN to predict both the direction and the 
 -In the CNN multi-categorial classification model we achieved our goal of making a model with a smaller standard deviation of error than all stock's standard deviation of returns. This may seem useless on its surface but a model that can consistently do this would be of enourmous benefit to options traders due to the ability to take limited risk positions that have large payouts if the underlying stock lands in a specific zone.
 
 # Further Study:
-While these models did provide compelling results, it would take a fool to put real money at risk using these techniques alone and I advise against it in the strongest possible way.
+While these models did provide compelling results, it would be foolish to put real money at risk using these techniques alone and I advise against it in the strongest possible way.
 
 Areas of further study:
 
