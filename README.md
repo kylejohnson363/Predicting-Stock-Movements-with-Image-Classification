@@ -3,6 +3,8 @@ Use Convolutional Neural Networks on stock chart images to predict a stock’s 1
 
 Kyle Johnson
 
+Blog post:  https://kylejohnson363.github.io/forecasting_stock_movements_with_image_classification
+
 ### Project Motivation
 The use of stock charts to inform trading and investing decisions has been prominent since long before computers when traders would draw their charts by hand in search of exploitable patterns.  This project builds on that by applying image recognition techniques, specifically Convolutional Neural Networks, on candlestick stock chart images in search of actionable insight.
 
