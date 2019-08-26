@@ -22,7 +22,7 @@ This approach used a binary classification CNN to predict if a stock would move 
 ![Binary](https://github.com/kylejohnson363/Predicting-Stock-Movements-with-Image-Classification/blob/master/Binary%20Results.JPG)
 
 ### Multi-Categorical Results
-This approach used a multicategorical CNN to predict both the direction and the magnitude of a stock's movement.  The goal is for the predictions to have a smaller standard deviation of error than the corresponding standard deviation of returns.  This may seem abstract but it is extremely valuable to options traders who can place complex bets about when a stock will be in what price range.  These very specified bets can have very large payoffs when they are correct.  The negative value of the bartlett coefficient means that our standard deviation of error is smaller than our benchmark and the p-value indicates that it is statistically significant, meaning that we have achieved our goal.
+This approach used a multicategorical CNN to predict both the direction and the magnitude of a stock's movement.  The goal is for the predictions to have a smaller standard deviation of error than the corresponding standard deviation of returns.  This may seem abstract but it is extremely valuable to options traders who can place complex bets about when a stock will be in a certain price range.  These very specified bets can have very large payoffs when they are correct.  The negative value of the bartlett coefficient means that our standard deviation of error is smaller than our benchmark and the p-value indicates that it is statistically significant, meaning that we have achieved our goal.
 
 ![Multi](https://github.com/kylejohnson363/Predicting-Stock-Movements-with-Image-Classification/blob/master/Multi%20Results.JPG)
 
