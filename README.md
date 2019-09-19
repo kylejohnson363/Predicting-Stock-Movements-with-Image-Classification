@@ -41,3 +41,5 @@ Areas of further study:
 -The size (days included in each chart), detail (number of pixels), data (include volume and other data) and indicators contained within the input images.
 
 -The number of stocks to include. Further study should include stocks that are no longer in the Dow Jones or even no longer publically traded in order to avoid survivorship bias.
+
+-Create a "blended" Neural Network that incorporates both numerical and image data.
