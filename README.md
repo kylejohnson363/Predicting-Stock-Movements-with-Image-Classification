@@ -36,9 +36,9 @@ While these models did provide compelling results, it would be foolish to put re
 
 Areas of further study:
 
--The architecture of the neural network in order to optimizethe model for reading stock chart images.
+-Adjust the architecture of the neural network in order to optimize the model for reading stock chart images.
 
--The size (days included in each chart), detail (number of pixels), data (include volume and other data) and indicators contained within the input images.
+-Try many values for the size (days included in each chart), detail (number of pixels), data (include volume and other data) and indicators contained within the input images.
 
 -The number of stocks to include. Further study should include stocks that are no longer in the Dow Jones or even no longer publically traded in order to avoid survivorship bias.
 
