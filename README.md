@@ -17,7 +17,7 @@ The data for this project was daily stock price data on all 30 stocks in the Dow
 ![Diagram](https://github.com/kylejohnson363/Predicting-Stock-Movements-with-Image-Classification/blob/master/Diagram.JPG)
 
 ### Binary Results
-This approach used a binary classification CNN to predict if a stock would move up or down.  The results of the model are compared against the Dow Jones Industrial Average over the same out-of-sample time frame and shows that our portfolio almost doubles the return of our benchmark (56% vs 31%).  Not only does our portfolio outperform the market, it out performs both when the market goes up and when it goes down.
+This approach used a binary classification CNN to predict if a stock would move up or down.  The results of the model are compared against the Dow Jones Industrial Average over the same out-of-sample time frame and shows that our portfolio almost doubles the return of our benchmark (56% vs 31%).  Not only does our portfolio outperform the market, it out performs both when the market goes up and when it goes down meaning that the network is adding value by identifying useful predicitve features within a chart.
 
 ![Binary](https://github.com/kylejohnson363/Predicting-Stock-Movements-with-Image-Classification/blob/master/Binary%20Results.JPG)
 
