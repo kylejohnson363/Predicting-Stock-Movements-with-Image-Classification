@@ -8,7 +8,7 @@ Blog post:  https://kylejohnson363.github.io/forecasting_stock_movements_with_im
 ### Project Motivation
 The use of stock charts to inform trading and investing decisions has been prominent since long before computers when traders would draw their charts by hand in search of exploitable patterns.  This project builds on that by applying image recognition techniques, specifically Convolutional Neural Networks, on candlestick stock chart images in search of actionable insight.
 
-Please see the notebook titled "Summary_Start_Here" for a detailed road map through this project in order fully understand the process.
+#####Please see the notebook titled "Summary_Start_Here" for a detailed road map through this project in order fully understand the process.
 
 ### Process Overview
 
